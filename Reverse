@@ -1,0 +1,24 @@
+package com;
+
+import java.util.Scanner;
+
+
+
+public class Reversenum {
+
+	public static void main(String[] args) {
+		int n,a=0,p;
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		n=s.nextInt();
+		
+		while(n>0)
+		{
+			p=n%10;
+			a=a*10+p;
+			n=n/10;
+		}
+		System.out.println("Reverse number:"+a);
+	}
+
+}
