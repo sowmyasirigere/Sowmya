@@ -1,0 +1,21 @@
+package com;
+
+public class Fib {
+
+	public static void main(String[] args) {
+		int p=0,q=1,n=10,r,i=0;
+		System.out.print(p+" "+q);
+		for(i=0;i<=n;i++)
+		{   
+		
+			r=p+q;
+			System.out.print(" "+r);
+			p=q;
+			q=r;
+			
+		}
+		
+
+	}
+
+}
